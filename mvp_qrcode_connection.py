@@ -6,7 +6,7 @@ import datetime
 import time
 from cryptography.fernet import Fernet
 
-
+#conexao db
 file = open('chave.key', 'rb')
 chave_lida = file.read()
 file.close()
@@ -26,15 +26,7 @@ arq = arq.split('\n')
 dados = []
 for linha in range(len(arq)):
     dados.append(arq[linha].rstrip())
-print(dados)
-print('\n')
 
-
-
-
-
-ticketusado = list()
-#realiza conexão no banco de dados
 try:
     conexao = pymysql.connect(
         host = dados[0],
@@ -49,12 +41,7 @@ try:
 except:
     print('Impossível se conectar ao Banco de Dados!', title='Erro de conexão',text_color=(cor_branco))
 
-'''with conexao.cursor() as cursor:
-    cursor.execute('select * from ticket')
-    estoque = cursor.fetchall()
-
-print(estoque)
-'''
+ticketusado = list()
 def callwebcan(x):
 
     with conexao.cursor() as cursor:
@@ -73,8 +60,6 @@ def callwebcan(x):
                 encontrado += 1
                 time.sleep(1)
                 
-                    
-
         if encontrado ==0:
             print("entrei aqui")
             with conexao.cursor() as cursor:
@@ -88,33 +73,23 @@ def callwebcan(x):
     except:
         print("return")
         return 0
+
 cap = cv2.VideoCapture(0)
-# initialize the cv2 QRCode detector
+# inicializa o cv2 detector de qrcode
 detector = cv2.QRCodeDetector()
 teste=0
 
 while True:
     data = teste
     _, img = cap.read()
-    # detect and decode
     data, bbox, _ = detector.detectAndDecode(img)
-        # check if there is a QRCode in the image
     if data != teste:    
         if data:
             a=data
             callwebcan(a)
 
-
+    #termina programa com comando s
     cv2.imshow("QRCODEscanner", img)    
     if cv2.waitKey(1) == ord("s"):
         break
-
-
-
-
-'''
-b=webbrowser.open(str("https://polygonscan.com/address/"+a))
-
-cv2.destroyAllWindows()
-'''
 
