@@ -39,7 +39,7 @@ try:
     bd = dados[4]
 
 except:
-    print('Impossível se conectar ao Banco de Dados!', title='Erro de conexão',text_color=(cor_branco))
+    print('Impossível se conectar ao Banco de Dados!')
 
 ticketusado = list()
 def callwebcan(x):
