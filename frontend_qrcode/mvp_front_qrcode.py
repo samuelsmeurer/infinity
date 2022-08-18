@@ -17,10 +17,6 @@ cor_laranja = '#F09800'
 cor_branco = 'white'
 sg.theme('Dark Blue 17')
 
-
-
-
-
 #conexao db
 file = open('chave.key', 'rb')
 chave_lida = file.read()
@@ -94,6 +90,7 @@ def callwebcan(x):
         return 0
 
 cap = cv2.VideoCapture(0)
+
 # inicializa o cv2 detector de qrcode
 detector = cv2.QRCodeDetector()
 teste=0
