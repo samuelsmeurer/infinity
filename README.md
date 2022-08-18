@@ -1,5 +1,5 @@
 # infinity
-O objetivo desse repositório é para regisrtar os MVPs da Infinity.
+O objetivo desse repositório é para registrar os MVPs da Infinity.
 
 _**MVP 1 - UTILIZAR QRCODE PARA VERIFICAÇÃO DE CADASTRO EM BANCO DE DADOS:**_
 
