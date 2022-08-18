@@ -6,12 +6,14 @@ _**MVP 1 - UTILIZAR QRCODE PARA VERIFICAÇÃO DE CADASTRO EM BANCO DE DADOS:**_
    **1 - PARA TESTAR O PRIMEIRO MVP, BAIXE O ARQUIVO mvp_verificador_qrcode.zip**
    
    -----Passo a passo para baixar o arquivo:-----
-
+   
+**PULE O 1º E O 2º PASSO CLICANDO NESSE LINK:**
+   https://github.com/samuelsmeurer/infinity/raw/main/mvp_verificador_qrcode.zip
+   
+   
    **1º PASSO:**
 
    ![image](https://user-images.githubusercontent.com/63523841/185417566-922bc131-bbda-475e-8e1d-65e5174345ed.png)
-   OU CLIQUE NESTE LINK:
-   https://github.com/samuelsmeurer/infinity/raw/main/mvp_verificador_qrcode.zip
 
 
    **2ºPASSO:**
