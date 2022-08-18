@@ -4,6 +4,7 @@ O objetivo desse repositório é para registrar os MVPs da Infinity.
 _**MVP 1 - UTILIZAR QRCODE PARA VERIFICAÇÃO DE CADASTRO EM BANCO DE DADOS:**_
 
    **1 - PARA TESTAR O PRIMEIRO MVP, BAIXE O ARQUIVO mvp_verificador_qrcode.zip**
+   
    -----Passo a passo para baixar o arquivo:-----
 
    **1º PASSO:**
@@ -26,5 +27,7 @@ _**MVP 1 - UTILIZAR QRCODE PARA VERIFICAÇÃO DE CADASTRO EM BANCO DE DADOS:**_
    ![image](https://user-images.githubusercontent.com/63523841/185418035-25acb2b8-d943-4bf2-93d9-32ce521dc8ef.png)
       
    **2 - APONTE UM QRCODE PARA A WEBCAN**
+   
    -----Você pode criar um QRcode neste site:-----
+   
    https://www.qrcode-monkey.com/pt/?utm_source=google_c&utm_medium=cpc&utm_campaign=&utm_content=&utm_term=como%20criar%20qr%20code_e&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x2sG1LY1Q7ZWI5ddXXV4Bcp4blnljnmQ9IHpU8bM-w0CQnbbcggsskaAkJLEALw_wcB#text
